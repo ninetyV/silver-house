@@ -1,0 +1,143 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; } 
+
+body {
+    background: #ffffff;
+}
+
+
+@import url(fonts.css);
+
+.list {
+    list-style-type: none; 
+} 
+
+.container {
+    max-width: 1110px; 
+    margin: 0 auto;
+} 
+
+
+.header__wrap {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    gap: 79px; 
+    padding: 50px 0 38px;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}  
+
+.menu {
+    display: flex;
+    flex-direction: row; 
+    gap: 30px; 
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+} 
+
+a {
+    color: #8C8A8A; 
+    text-decoration: none; 
+    transition: 0.4s;
+} 
+
+a:hover {
+    color: #c4c4c4; 
+}  
+
+.banner {
+    background: url(../img/block.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px; 
+} 
+
+.exp_desc {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 30px 0;
+} 
+
+.head {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left; 
+    color:#4581B7; 
+    padding: 50px 0 25px 40px; 
+} 
+
+.desc {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left; 
+    color:#808080; 
+    padding: 0 24px 25px 40px;    
+      
+} 
+
+.container_exp {
+    max-width: 730px;
+    background:#F0F0F0; 
+} 
+
+.container_desc  {
+    max-width: 350px;
+    background:#F0F0F0; 
+}  
+
+.desc2 {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left; 
+    color:#808080; 
+    padding: 0 95px 25px 40px; 
+} 
+
+.end {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 15px 40px; 
+    background:#F0F0F0;
+} 
+
+.center {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end; 
+} 
+
+.font__regular {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: left; 
+    color:#808080;
+    
+} 
+
+.font__bold {
+    font-family:'Roboto-Bold', sans-serif;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    color:#808080; 
+    padding: 10px 0; 
+}
+
+
+
+
+
+
